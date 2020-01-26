@@ -28,7 +28,7 @@ export default withRedux(initStore)(
 				<Container>
 					<DefaultSeo
 						title="Tembo AI"
-						description="Mojosa is a React Next Landing Page Templates. This has been built with React, Next.js, Express.js, and ES6+"
+						description="Tembo AI"
 						openGraph={{
 							type: "website",
 							locale: "en_IE",
