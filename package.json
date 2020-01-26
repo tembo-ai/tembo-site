@@ -15,7 +15,7 @@
 		"react.js",
 		"node.js"
 	],
-	"author": "EnvyTheme.com",
+	"author": "Juan Sergio Buenviaje",
 	"license": "ISC",
 	"dependencies": {
 		"@zeit/next-css": "^1.0.1",
