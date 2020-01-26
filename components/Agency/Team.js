@@ -12,7 +12,7 @@ class Team extends Component {
 					</div>
 
 					<div className="row">
-						<div className="col-lg-3 col-md-4 col-sm-6">
+						<div className="col-lg-4 col-md-4 col-sm-6">
 							<div className="single-team-member">
 								<img
 									src={require("../../images/anandShah.png")}
@@ -43,7 +43,7 @@ class Team extends Component {
 							</div>
 						</div>
 
-						<div className="col-lg-3 col-md-4 col-sm-6">
+						<div className="col-lg-4 col-md-4 col-sm-6">
 							<div className="single-team-member">
 								<img
 									src={require("../../images/danKervick.png")}
@@ -74,7 +74,7 @@ class Team extends Component {
 							</div>
 						</div>
 
-						<div className="col-lg-3 col-md-4 col-sm-6">
+						{/*<div className="col-lg-3 col-md-4 col-sm-6">
 							<div className="single-team-member">
 								<img
 									src={require("../../images/jackHill.png")}
@@ -102,9 +102,9 @@ class Team extends Component {
 									</ul>
 								</div>
 							</div>
-						</div>
+										</div>*/}
 
-						<div className="col-lg-3 col-md-4 col-sm-6">
+						<div className="col-lg-4 col-md-4 col-sm-6">
 							<div className="single-team-member">
 								<img
 									src={require("../../images/jioBuenviaje.png")}
@@ -135,7 +135,7 @@ class Team extends Component {
 							</div>
 						</div>
 
-						<div className="col-lg-3 col-md-4 col-sm-6">
+						{/*<div className="col-lg-3 col-md-4 col-sm-6">
 							<div className="single-team-member">
 								<img
 									src={require("../../images/patrickFlynn.png")}
@@ -259,7 +259,7 @@ class Team extends Component {
 									</ul>
 								</div>
 							</div>
-						</div>
+									</div>*/}
 					</div>
 				</div>
 			</section>
