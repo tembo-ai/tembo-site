@@ -39,10 +39,6 @@ class Navbar extends React.Component {
 
 		let layOutCls = "";
 		let logo = require("../../images/logo.png");
-		if (pathname == "/digital-marketing") {
-			layOutCls = "marketing-navbar";
-			logo = require("../../images/logo2.png");
-		}
 
 		const { collapsed } = this.state;
 		const classOne = collapsed
@@ -58,7 +54,7 @@ class Navbar extends React.Component {
 					<div id="navbar" className={`crake-nav ${layOutCls}`}>
 						<div className="container">
 							<nav className="navbar navbar-expand-md navbar-light">
-								<Link href="/saas">
+								<Link href="/">
 									<a className="navbar-brand">
 										<img src={logo} alt="logo" />
 									</a>
