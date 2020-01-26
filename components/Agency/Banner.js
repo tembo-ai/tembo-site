@@ -180,7 +180,7 @@ class Banner extends Component {
 														<div className="product-image">
 															<img
 																src={require("../../images/temboMac.png")}
-																alt="watch"
+																alt="tembo"
 															/>
 														</div>
 													</div>

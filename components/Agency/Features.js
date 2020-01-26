@@ -59,7 +59,7 @@ class Features extends Component {
 								<div className="features-image">
 									<img
 										src={require("../../images/solution.png")}
-										alt="image"
+										alt="solution"
 									/>
 								</div>
 							</div>
