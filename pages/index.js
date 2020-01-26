@@ -9,6 +9,7 @@ import Feedback from "../components/Agency/Feedback";
 import Join from "../components/Agency/Join";
 import Team from "../components/Agency/Team";
 import Blog from "../components/Agency/Blog";
+import Form from "../components/ContactUs/Form";
 import Subscribe from "../components/Agency/Subscribe";
 
 class Agency extends React.Component {
@@ -24,6 +25,7 @@ class Agency extends React.Component {
 				<Team id="team" />
 				<Partner />
 				<Blog id="blog" />
+				<Form />
 				<Subscribe id={"getstarted"} />
 				<Footer />
 			</React.Fragment>
