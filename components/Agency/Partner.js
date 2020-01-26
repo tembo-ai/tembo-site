@@ -12,6 +12,10 @@ class Partner extends React.Component {
 		return (
 			<div className="partner-area startup-partner">
 				<div className="container">
+					<div className="section-title">
+						<h2>Our Partners</h2>
+						<div className="bar"></div>
+					</div>
 					<div className="row">
 						<div className="col-lg-4">
 							<div className="item">

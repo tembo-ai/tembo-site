@@ -4035,7 +4035,7 @@ Screenshot CSS
 Team CSS
 =================================================*/
 .team-area {
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   background: #f9f8fc;
 }
 
@@ -5045,7 +5045,9 @@ Analysis CSS
 Partner CSS
 =================================================*/
 .partner-area {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background: #f9f8fc;
   border-top: 1px solid #edf5ff;
 }
 

@@ -17,12 +17,12 @@ class Agency extends React.Component {
 			<React.Fragment>
 				<Navbar />
 				<Banner />
-				<Partner />
 				<Overview id="overview" />
 				<Features id={"features"} />
 				<Feedback />
 				<Join />
 				<Team id="team" />
+				<Partner />
 				<Blog id="blog" />
 				<Subscribe id={"getstarted"} />
 				<Footer />
