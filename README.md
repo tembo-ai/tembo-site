@@ -8,7 +8,9 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 
 ## Active TODOs
 
+- [ ] Possibly move hosting to Netlify
 - [ ] Update 404 error page
+- [ ] Speed up ToTop
 - [ ] Fix navigation within page
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
