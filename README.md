@@ -12,6 +12,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
 - [ ] Fix contact form (possibly Formspree)
+- [ ] Fix site metadata
 - [ ] Add Google Analytics
 - [ ] Optimize to be PWA
 - [ ] Delete unused assets (dependencies, images, CSS, pages)
