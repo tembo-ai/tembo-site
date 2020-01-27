@@ -133,10 +133,6 @@ $paragraph_color: #818992;
         .product-image {
             margin-top: 40px;
             position: relative;
-
-            img {
-                width: 165px;
-            }
         }
         &.product-home {
             .shape1, .shape4, .shape6 {
@@ -248,10 +244,6 @@ $paragraph_color: #818992;
             img {
                 position: relative;
                 display: none !important;
-                
-                &:last-child {
-                    display: block !important;
-                }
             }
         }
     }
@@ -1717,11 +1709,6 @@ $paragraph_color: #818992;
             img {
                 position: relative;
                 display: none !important;
-
-                &:last-child {
-                    display: block !important;
-                    margin: 0 auto;
-                }
             }
         }
         &.marketing-home {
@@ -2801,7 +2788,7 @@ $paragraph_color: #818992;
         }
         .product-image {
             img {
-                width: auto;
+                position: relative;
             }
         }
         .book-image {

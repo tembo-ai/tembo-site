@@ -86,7 +86,7 @@ class Banner extends Component {
 										<VisibilitySensor>
 											{({ isVisible }) => (
 												<React.Fragment>
-													<div className="col-lg-4 col-md-12">
+													<div className="col-lg-6 col-md-12">
 														<div className="hero-content">
 															<h1
 																className={
@@ -176,7 +176,7 @@ class Banner extends Component {
 														</div>
 													</div>
 
-													<div className="col-lg-8 col-md-12">
+													<div className="col-lg-6 col-md-12">
 														<div className="product-image">
 															<img
 																src={require("../../images/temboMac.png")}

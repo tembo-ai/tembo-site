@@ -100,9 +100,6 @@
     margin-top: 40px;
     position: relative;
   }
-  .main-banner .product-image img {
-    width: 165px;
-  }
   .main-banner.product-home .shape1, .main-banner.product-home .shape4, .main-banner.product-home .shape6 {
     display: none;
   }
@@ -193,9 +190,6 @@
   .main-banner .startup-image img {
     position: relative;
     display: none !important;
-  }
-  .main-banner .startup-image img:last-child {
-    display: block !important;
   }
   .startup-home .main-banner {
     position: relative;
@@ -1261,10 +1255,6 @@
     position: relative;
     display: none !important;
   }
-  .main-banner .startup-image img:last-child {
-    display: block !important;
-    margin: 0 auto;
-  }
   .main-banner.marketing-home .shape3, .main-banner.marketing-home .shape1 {
     display: none;
   }
@@ -1958,7 +1948,7 @@
     top: -20px;
   }
   .main-banner .product-image img {
-    width: auto;
+    position: relative;
   }
   .main-banner .book-image img {
     bottom: -280px !important;
