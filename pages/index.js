@@ -1,18 +1,18 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
-import Footer from "../components/Layouts/Footer";
-import Banner from "../components/Agency/Banner";
-import Partner from "../components/Agency/Partner";
-import Features from "../components/Agency/Features";
-import Overview from "../components/Agency/Overview";
-import Feedback from "../components/Agency/Feedback";
-import Join from "../components/Agency/Join";
-import Team from "../components/Agency/Team";
-import Blog from "../components/Agency/Blog";
-import Form from "../components/ContactUs/Form";
-import Subscribe from "../components/Agency/Subscribe";
+import Navbar from "../components/Layout/Navbar";
+import Footer from "../components/Layout/Footer";
+import Banner from "../components/Contents/Banner";
+import Partner from "../components/Contents/Partner";
+import Features from "../components/Contents/Features";
+import Overview from "../components/Contents/Overview";
+import Feedback from "../components/Contents/Feedback";
+import Join from "../components/Contents/Join";
+import Team from "../components/Contents/Team";
+import Blog from "../components/Contents/Blog";
+import Form from "../components/Contents/Form";
+import Subscribe from "../components/Contents/Subscribe";
 
-class Agency extends React.Component {
+class Contents extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
@@ -33,4 +33,4 @@ class Agency extends React.Component {
 	}
 }
 
-export default Agency;
+export default Contents;

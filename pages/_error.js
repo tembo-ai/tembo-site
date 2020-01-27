@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import Banner from "../components/Error/Banner";
+import Banner from "../components/Contents/ErrorBanner";
 
 class Error extends Component {
 	static getInitialProps({ res, err }) {

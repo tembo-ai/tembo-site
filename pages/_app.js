@@ -9,7 +9,7 @@ import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
 import { initStore } from "../store/reducers/cartReducer";
 import { DefaultSeo } from "next-seo";
-import GoTop from "../components/Shared/GoTop";
+import GoTop from "../components/Contents/GoTop";
 
 export default withRedux(initStore)(
 	class MyApp extends App {
