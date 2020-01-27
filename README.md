@@ -10,6 +10,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 
 - [x] Update 404 error page
 - [x] Speed up GoTop
+- [x] Delete unused dependencies (depcheck/npm-check-unused)
 - [ ] Fix navigation within page
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
@@ -17,7 +18,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [ ] Fix site metadata
 - [ ] Add Google Analytics
 - [ ] Optimize to be PWA
-- [ ] Delete unused assets (dependencies, images, CSS, pages)
+- [ ] Delete unused assets (images, CSS, pages)
 - [ ] Optimize images
 - [ ] Add Google Tagmanager
 - [ ] Change form to formik or react-hook-form
