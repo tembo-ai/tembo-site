@@ -17,9 +17,22 @@ class Partner extends React.Component {
 						<div className="bar"></div>
 					</div>
 					<div className="row">
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<div className="item">
-								<Link href="#">
+								<Link href="https://www.farshore.com/">
+									<a>
+										<img
+											src={require("../../images/farshore.png")}
+											alt="partner"
+										/>
+									</a>
+								</Link>
+							</div>
+						</div>
+
+						<div className="col-lg-3">
+							<div className="item">
+								<Link href="https://ideacenter.nd.edu/">
 									<a>
 										<img
 											src={require("../../images/ideacenter.png")}
@@ -30,9 +43,9 @@ class Partner extends React.Component {
 							</div>
 						</div>
 
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<div className="item">
-								<Link href="#">
+								<Link href="http://www.harborlinknetwork.com/">
 									<a>
 										<img
 											src={require("../../images/harborlink.png")}
@@ -43,9 +56,9 @@ class Partner extends React.Component {
 							</div>
 						</div>
 
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<div className="item">
-								<Link href="#">
+								<Link href="https://thegarage.northwestern.edu/">
 									<a>
 										<img
 											src={require("../../images/garage.png")}
