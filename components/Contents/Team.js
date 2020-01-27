@@ -22,7 +22,7 @@ class Team extends Component {
 								<div className="team-content">
 									<h3>Anand Shah</h3>
 									<div>
-										<span>CEO & Founder</span>
+										<span>President & Founder</span>
 									</div>
 									<p>
 										BS in Physics (Notre Dame ‘18), MS in
