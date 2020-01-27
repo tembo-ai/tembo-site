@@ -9,6 +9,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 ## Active TODOs
 
 - [ ] Update 404 error page
+- [ ] Fix navigation within page
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
 - [ ] Fix contact form (possibly Formspree)
