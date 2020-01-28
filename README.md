@@ -20,7 +20,6 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [ ] Optimize to be PWA
 - [ ] Delete unused assets (images, CSS)
 - [ ] Optimize images
-- [ ] Add Google Tagmanager
 - [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature (possibly)
 
