@@ -15,14 +15,13 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Add Google Analytics
 - [x] Fix site metadata
 - [x] Optimize SEO (use next-seo)
+- [x] Fix contact form (use axios and Formspree)
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
-- [ ] Fix contact form (possibly Formspree)
 - [ ] Connect to Contentful for more client control
 - [ ] Optimize to be PWA
 - [ ] Delete unused assets (images, CSS)
 - [ ] Optimize images
-- [ ] Change form to formik or react-hook-form
 - [ ] Add Dark Mode feature (possibly)
 
 ---
