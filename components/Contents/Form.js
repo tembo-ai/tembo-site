@@ -124,7 +124,7 @@ export default () => {
 						</div>
 					</div>
 
-					<div className="col-lg-12 col-md-6">
+					<div className="col-lg-12 col-md-12">
 						<div className="form-group">
 							<input
 								id="subject"
@@ -175,10 +175,14 @@ export default () => {
 							<>
 								<div
 									id="msgSubmit"
-									className="pt-50 h4 text-center hidden"
+									className="mt-50 text-center hidden alert alert-danger"
+									role="alert"
 								>
-									Error, your message has not been sent.
-									Please try again.
+									<h4 class="alert-heading">Error!</h4>
+									<p>
+										Your message has not been sent. Please
+										try again.
+									</p>
 								</div>
 								<div className="clearfix"></div>
 							</>
@@ -189,10 +193,14 @@ export default () => {
 								<>
 									<div
 										id="msgSubmit"
-										className="pt-50 h4 text-center hidden"
+										className="mt-50 text-center hidden alert alert-success"
+										role="alert"
 									>
-										Success, we have received your message.
-										Thank you.
+										<h4 class="alert-heading">Success!</h4>
+										<p>
+											We have received your message. Thank
+											you.
+										</p>
 									</div>
 									<div className="clearfix"></div>
 								</>
