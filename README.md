@@ -12,11 +12,11 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Speed up GoTop
 - [x] Delete unused dependencies (depcheck/npm-check-unused)
 - [x] Fix navigation within page
+- [x] Add Google Analytics
 - [ ] Fix Google Maps API Integration
 - [ ] Fix Mailchimp API Integration
 - [ ] Fix contact form (possibly Formspree)
 - [ ] Fix site metadata
-- [ ] Add Google Analytics
 - [ ] Optimize to be PWA
 - [ ] Delete unused assets (images, CSS)
 - [ ] Optimize images
