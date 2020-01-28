@@ -28,11 +28,11 @@ export default withRedux(initStore)(
 				<Container>
 					<DefaultSeo
 						title="Tembo AI"
-						description="Tembo AI"
+						description="Tembo AI - Empowering individuals to protect their communities"
 						openGraph={{
 							type: "website",
 							locale: "en_IE",
-							url: "https://nextland-react.envytheme.com/",
+							url: "https://www.tembo.ai/",
 							site_name: "Tembo AI"
 						}}
 					/>
