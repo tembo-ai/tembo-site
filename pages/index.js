@@ -1,4 +1,6 @@
 import React from "react";
+
+import Layout from "../components/Layout/Layout";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import Banner from "../components/Contents/Banner";
@@ -16,38 +18,40 @@ class Contents extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
-				<section name="banner">
-					<Banner />
-				</section>
-				<section name="intention">
-					<Intention />
-				</section>
-				<section name="solution">
-					<Solution />
-				</section>
-				<section name="mission">
-					<Mission />
-				</section>
-				<section name="studies">
-					<Studies />
-				</section>
-				<section name="team">
-					<Team />
-				</section>
-				<section name="partners">
-					<Partners />
-				</section>
-				<section name="news">
-					<News />
-				</section>
-				<section name="contact">
-					<Contact />
-				</section>
-				<section name="subscribe">
-					<Subscribe />
-				</section>
-				<Footer />
+				<Layout>
+					<Navbar />
+					<section name="banner">
+						<Banner />
+					</section>
+					<section name="intention">
+						<Intention />
+					</section>
+					<section name="solution">
+						<Solution />
+					</section>
+					<section name="mission">
+						<Mission />
+					</section>
+					<section name="studies">
+						<Studies />
+					</section>
+					<section name="team">
+						<Team />
+					</section>
+					<section name="partners">
+						<Partners />
+					</section>
+					<section name="news">
+						<News />
+					</section>
+					<section name="contact">
+						<Contact />
+					</section>
+					<section name="subscribe">
+						<Subscribe />
+					</section>
+					<Footer />
+				</Layout>
 			</React.Fragment>
 		);
 	}
