@@ -28,7 +28,7 @@ export default withRedux(initStore)(
 				<Container>
 					<DefaultSeo
 						title="Tembo AI"
-						description="Tembo AI - Empowering individuals to protect their communities"
+						description="Tembo AI - Empowering individuals to protect their communities."
 						openGraph={{
 							type: "website",
 							locale: "en_IE",
