@@ -1,14 +1,4 @@
 /*
-@File: Crake Template Styles
-
-* This file contains the styling for the actual tepmlate, this
-is the file you need to edit to change the look of the
-tepmlate.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
 
 ==== INDEX PAGE CSS
 
@@ -66,6 +56,7 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 $font_family: "Nunito", sans-serif;
+$font_family2: "Montserrat", serif;
 $template_color: #3e0f5e;
 $template_color2: #f98711;
 $white_color: #ffffff;
@@ -73,13 +64,23 @@ $black_color: #000000;
 $paragraph_color: #818992;
 $transition: 0.5s;
 @import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 
 body {
-	font-family: $font_family;
+	font-family: $font_family2;
 	padding: 0;
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font_family;
+}
 a {
+	font-family: $font_family;
 	color: $black_color;
 	text-decoration: none;
 	transition: 0.4s;
@@ -181,6 +182,7 @@ button {
 	}
 }
 .btn {
+	font-family: $font_family;
 	font: {
 		weight: 700;
 		size: 15px;
