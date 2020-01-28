@@ -2,7 +2,7 @@
 
 Progressive Web Application (PWA) developed in React through Next for frontend and Node (Express) for backend. PWA uses Sass and Bootstrap (General Style), Google Maps (Map Location), Mailchimp (Subscription), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on ZEIT Now.
 
-![web-screenshot](https://user-images.githubusercontent.com/50670255/73211481-563cc600-411a-11ea-8088-f3ec63f31e1f.png)
+![web-screenshot](https://user-images.githubusercontent.com/50670255/73226909-a8dca900-413f-11ea-8669-95ecdb20ac38.png)
 
 ---
 
