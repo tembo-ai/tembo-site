@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Link from "next/link";
 
-class Join extends Component {
+class Studies extends Component {
 	render() {
 		return (
 			<section className="join-area pb-100">
@@ -64,4 +63,4 @@ class Join extends Component {
 	}
 }
 
-export default Join;
+export default Studies;

@@ -159,7 +159,7 @@ class Banner extends Component {
 																	<i className="icofont-play-alt-3"></i>
 																</a>
 															</Link>
-															<Link href="#getstarted">
+															<Link href="#contact">
 																<a
 																	className={`
                                                                     video-btn ${
@@ -168,7 +168,6 @@ class Banner extends Component {
 																			: ""
 																	}
                                                                 `}
-																	href="#getstarted"
 																>
 																	Contact Us
 																</a>

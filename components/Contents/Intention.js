@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Link from "next/link";
 
-class Overview extends Component {
+class Intention extends Component {
 	render() {
 		return (
 			<section className="overview-section ptb-100">
@@ -90,4 +89,4 @@ class Overview extends Component {
 	}
 }
 
-export default Overview;
+export default Intention;

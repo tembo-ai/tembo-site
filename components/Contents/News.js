@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-class Blog extends React.Component {
+class News extends React.Component {
 	state = { display: false };
 
 	componentDidMount() {
@@ -67,4 +67,4 @@ class Blog extends React.Component {
 	}
 }
 
-export default Blog;
+export default News;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Form extends Component {
+class Contact extends Component {
 	render() {
 		return (
 			<section className="contact-area ptb-100">
@@ -108,4 +108,4 @@ class Form extends Component {
 	}
 }
 
-export default Form;
+export default Contact;

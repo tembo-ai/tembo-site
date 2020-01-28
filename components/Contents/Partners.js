@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 
-class Partner extends React.Component {
+class Partners extends React.Component {
 	state = { display: false };
 
 	componentDidMount() {
@@ -75,4 +74,4 @@ class Partner extends React.Component {
 	}
 }
 
-export default Partner;
+export default Partners;

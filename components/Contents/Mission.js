@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import dynamic from "next/dynamic";
-const OwlCarousel = dynamic(import("react-owl-carousel3"));
 
-class Feedback extends Component {
+class Mission extends Component {
 	state = { display: false };
 
 	componentDidMount() {
@@ -72,4 +70,4 @@ class Feedback extends Component {
 	}
 }
 
-export default Feedback;
+export default Mission;

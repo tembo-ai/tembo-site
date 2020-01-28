@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import Banner from "../components/Contents/Banner";
-import Partner from "../components/Contents/Partner";
-import Features from "../components/Contents/Features";
-import Overview from "../components/Contents/Overview";
-import Feedback from "../components/Contents/Feedback";
-import Join from "../components/Contents/Join";
+import Partners from "../components/Contents/Partners";
+import Solution from "../components/Contents/Solution";
+import Intention from "../components/Contents/Intention";
+import Mission from "../components/Contents/Mission";
+import Studies from "../components/Contents/Studies";
 import Team from "../components/Contents/Team";
-import Blog from "../components/Contents/Blog";
-import Form from "../components/Contents/Form";
+import News from "../components/Contents/News";
+import Contact from "../components/Contents/Contact";
 import Subscribe from "../components/Contents/Subscribe";
 
 class Contents extends React.Component {
@@ -17,16 +17,36 @@ class Contents extends React.Component {
 		return (
 			<React.Fragment>
 				<Navbar />
-				<Banner />
-				<Overview id="overview" />
-				<Features id={"features"} />
-				<Feedback />
-				<Join />
-				<Team id="team" />
-				<Partner />
-				<Blog id="blog" />
-				<Form />
-				<Subscribe id={"getstarted"} />
+				<section name="banner">
+					<Banner />
+				</section>
+				<section name="intention">
+					<Intention />
+				</section>
+				<section name="solution">
+					<Solution />
+				</section>
+				<section name="mission">
+					<Mission />
+				</section>
+				<section name="studies">
+					<Studies />
+				</section>
+				<section name="team">
+					<Team />
+				</section>
+				<section name="partners">
+					<Partners />
+				</section>
+				<section name="news">
+					<News />
+				</section>
+				<section name="contact">
+					<Contact />
+				</section>
+				<section name="subscribe">
+					<Subscribe />
+				</section>
 				<Footer />
 			</React.Fragment>
 		);

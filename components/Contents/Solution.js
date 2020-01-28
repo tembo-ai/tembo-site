@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Link from "next/link";
 
-class Features extends Component {
+class Solution extends Component {
 	render() {
 		return (
 			<section className="features-area startup-features ptb-100">
@@ -110,4 +109,4 @@ class Features extends Component {
 	}
 }
 
-export default Features;
+export default Solution;
