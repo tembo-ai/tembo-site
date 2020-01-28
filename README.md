@@ -22,6 +22,5 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [ ] Optimize to be PWA
 - [ ] Delete unused assets (images, CSS)
 - [ ] Optimize images
-- [ ] Add Dark Mode feature (possibly)
 
 ---
