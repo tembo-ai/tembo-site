@@ -59,6 +59,12 @@ export default () => {
 					true,
 					"Thank you, your message has been submitted."
 				);
+				setTimeout(() => {
+					setStatus(prevStatus => ({
+						...prevStatus,
+						submitted: false
+					}));
+				}, 3500);
 			})
 			.catch(error => {
 				handleServerResponse(false, error.response.data.error);
@@ -165,28 +171,32 @@ export default () => {
 									: "Submitted"
 								: "Submitting..."}
 						</button>
-						{status.info.error && (
+						{status.info.error && status.submitted && (
 							<>
 								<div
 									id="msgSubmit"
-									className="h4 text-center hidden"
+									className="pt-50 h4 text-center hidden"
 								>
-									Error, your message has not been sent!
+									Error, your message has not been sent.
+									Please try again.
 								</div>
 								<div className="clearfix"></div>
 							</>
 						)}
-						{!status.info.error && status.info.msg && (
-							<>
-								<div
-									id="msgSubmit"
-									className="h4 text-center hidden"
-								>
-									Success, we have received your message!
-								</div>
-								<div className="clearfix"></div>
-							</>
-						)}
+						{!status.info.error &&
+							status.info.msg &&
+							status.submitted && (
+								<>
+									<div
+										id="msgSubmit"
+										className="pt-50 h4 text-center hidden"
+									>
+										Success, we have received your message.
+										Thank you.
+									</div>
+									<div className="clearfix"></div>
+								</>
+							)}
 					</div>
 				</div>
 			</form>

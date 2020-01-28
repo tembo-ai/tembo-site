@@ -99,6 +99,10 @@ img {
   vertical-align: middle;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
