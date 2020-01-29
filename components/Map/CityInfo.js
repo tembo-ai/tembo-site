@@ -13,7 +13,9 @@ export default class CityInfo extends PureComponent {
 					</a>
 					, {displayName}
 				</div>
-				<img width={240} src={info.image} />
+				<a target="_new" href={`https://goo.gl/maps/FDXqmxQgBicH3zZ66`}>
+					<img width={240} src={info.image} />
+				</a>
 			</div>
 		);
 	}

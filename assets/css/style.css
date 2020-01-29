@@ -134,6 +134,14 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.office h3 {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.office p {
+  line-height: 1;
+}
+
 button {
   outline: 0 !important;
 }
@@ -2223,8 +2231,8 @@ Features CSS
 
 .viewport {
   background: #ffffff;
-  -webkit-box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.5);
-          box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.5);
+  -webkit-box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.2);
+          box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.2);
   border-radius: 3px;
 }
 
@@ -6997,6 +7005,7 @@ Contact Us CSS
 }
 
 .contact-info-box h3 {
+  font-family: "Nunito", sans-serif;
   font-size: 23px;
   font-weight: 700;
   margin: 25px 0 15px;

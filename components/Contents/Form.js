@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Link from "next/link";
 
 export default () => {
 	const [status, setStatus] = useState({
@@ -74,6 +75,12 @@ export default () => {
 		<main>
 			<form id="contactForm" onSubmit={handleOnSubmit}>
 				<div className="row">
+					<div className="col-lg-12 col-md-12">
+						<p style={{ marginBottom: "15px" }}>
+							Fill out the form below or e-mail us at{" "}
+							<a href="mailto:team@tembo.tech">team@tembo.tech</a>
+						</p>
+					</div>
 					<div className="col-lg-6 col-md-12">
 						<div className="form-group">
 							<input

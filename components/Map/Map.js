@@ -84,8 +84,8 @@ export default class App extends Component {
 		return (
 			<MapGL
 				{...viewport}
-				width="500px"
-				height="500px"
+				width="450px"
+				height="450px"
 				mapStyle="mapbox://styles/mapbox/light-v10"
 				onViewportChange={this._updateViewport}
 				mapboxApiAccessToken={MyToken}

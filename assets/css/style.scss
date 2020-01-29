@@ -142,6 +142,14 @@ p {
 		margin-bottom: 0;
 	}
 }
+.office {
+	h3 {
+		font-family: $font_family !important;
+	}
+	p {
+		line-height: 1;
+	}
+}
 button {
 	outline: 0 !important;
 }
@@ -2081,7 +2089,7 @@ Features CSS
 }
 .viewport {
 	background: $white_color;
-	box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.5);
+	box-shadow: 0 2px 48px 0 rgba(62, 15, 94, 0.2);
 	border-radius: 3px;
 }
 .single-features-box {
@@ -6823,6 +6831,7 @@ Contact Us CSS
 		transition: 0.4s;
 	}
 	h3 {
+		font-family: $font_family;
 		font: {
 			size: 23px;
 			weight: 700;
