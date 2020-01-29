@@ -9,7 +9,7 @@ class Footer extends React.Component {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-6 col-md-6">
 								<ul>
-									<Link href="#">
+									<Link href="/">
 										<a className="logo">
 											<img
 												src={require("../../images/logo2.png")}
