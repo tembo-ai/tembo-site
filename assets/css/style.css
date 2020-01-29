@@ -136,10 +136,19 @@ p:last-child {
 
 .office h3 {
   font-family: "Nunito", sans-serif !important;
+  position: relative;
+  margin: 20px 0 15px;
+  z-index: 1;
+  font-size: 23px;
+  font-weight: 700;
 }
 
 .office p {
   line-height: 1;
+}
+
+.office p:last-child {
+  margin-bottom: 15px !important;
 }
 
 button {

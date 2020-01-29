@@ -145,9 +145,19 @@ p {
 .office {
 	h3 {
 		font-family: $font_family !important;
+		position: relative;
+		margin: 20px 0 15px;
+		z-index: 1;
+		font: {
+			size: 23px;
+			weight: 700;
+		}
 	}
 	p {
 		line-height: 1;
+		&:last-child {
+			margin-bottom: 15px !important;
+		}
 	}
 }
 button {
