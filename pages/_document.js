@@ -61,6 +61,10 @@ class MyDocument extends Document {
 						content="../images/bg2.png"
 					/>
 					<meta name="twitter:card" content="summary_large_image" />
+					<link
+						href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css"
+						rel="stylesheet"
+					/>
 				</Head>
 				<body>
 					<Main />

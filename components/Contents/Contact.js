@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Form from "./Form";
+import Map from "../Map/Map";
 
 class Contact extends Component {
 	render() {
@@ -13,10 +14,7 @@ class Contact extends Component {
 
 					<div className="row h-100 justify-content-center align-items-center">
 						<div className="col-lg-6 col-md-12">
-							<img
-								src={require("../../images/contact.svg")}
-								alt="image"
-							/>
+							<Map />
 						</div>
 
 						<div className="col-lg-6 col-md-12">
