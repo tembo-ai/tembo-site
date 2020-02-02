@@ -43,8 +43,7 @@ class Footer extends React.Component {
 
 							<div className="col-lg-6 col-md-6">
 								<p>
-									Copyright © 2020 Tembo AI, LLC. All rights
-									reserved.
+									© 2020 Tembo AI, LLC. All rights reserved.
 								</p>
 							</div>
 						</div>
