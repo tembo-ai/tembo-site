@@ -17,10 +17,10 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Optimize SEO (use next-seo)
 - [x] Fix contact form (use axios and integrate Formspree API)
 - [x] Integrate Mapbox (OpenStreetMap) API
+- [x] Delete unused assets (images, CSS)
 - [ ] Fix Mailchimp API Integration
 - [ ] Connect to Contentful API for more client control
 - [ ] Optimize to be PWA
-- [ ] Delete unused assets (images, CSS)
 - [ ] Optimize images
 
 ---
