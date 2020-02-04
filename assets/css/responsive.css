@@ -120,9 +120,6 @@
     bottom: 10px;
     right: 0;
   }
-  .main-banner.marketing-home {
-    background: #ffffff url(../../images/bg-point.png) no-repeat fixed right -700px center/auto;
-  }
   .main-banner.marketing-home .shape4, .main-banner.marketing-home .shape2 {
     display: none;
   }

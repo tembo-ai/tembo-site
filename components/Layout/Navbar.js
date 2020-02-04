@@ -1,9 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import { withRouter } from "next/router";
-import { connect } from "react-redux";
 import Link from "../../utils/ActiveLink";
 
-class Navbar extends React.Component {
+class Navbar extends Component {
 	_isMounted = false;
 
 	state = {
@@ -154,10 +153,4 @@ class Navbar extends React.Component {
 	}
 }
 
-const mapStateToProps = state => {
-	return {
-		products: state.addedItems
-	};
-};
-
-export default withRouter(connect(mapStateToProps)(Navbar));
+export default withRouter(Navbar);

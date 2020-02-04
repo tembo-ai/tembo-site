@@ -1523,10 +1523,6 @@ Main Banner CSS
   display: none;
 }
 
-.main-banner.marketing-home {
-  background: #ffffff url("../../images/bg-point.png") no-repeat fixed right -500px center/auto;
-}
-
 .main-banner.marketing-home .hero-content h1 {
   color: #000000;
 }
@@ -1666,7 +1662,6 @@ Main Banner CSS
 }
 
 .main-banner.book-home {
-  background-image: url(../../images/book-banner.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -1729,14 +1724,6 @@ Main Banner CSS
   background: #000000;
   z-index: -1;
   opacity: 0.95;
-}
-
-.startup-home .startup-bg2 {
-  background-image: url(../../images/main-bg-2.jpg);
-}
-
-.startup-home .startup-bg3 {
-  background-image: url(../../images/main-bg-3.jpg);
 }
 
 .startup-home.owl-theme .owl-nav {
@@ -2137,10 +2124,6 @@ Features CSS
   margin-top: 0;
 }
 
-.features-area.book-features {
-  background: #f9fafc url("../../images/bg-point.png") no-repeat fixed right -600px center/auto;
-}
-
 .single-features {
   text-align: center;
   -webkit-transition: 0.4s;
@@ -2354,7 +2337,6 @@ Product New Features CSS
 .new-features-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -2730,7 +2712,6 @@ CTA CSS
   position: relative;
   z-index: 1;
   padding: 60px 0;
-  background-image: url(../../images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -3047,7 +3028,6 @@ Fun Facts CSS
 .app-funfacts-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -3098,7 +3078,6 @@ Work Process CSS
 .saas-work-process {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -3448,8 +3427,6 @@ Pricing CSS
   z-index: 1;
   position: relative;
   border-radius: 5px;
-  background-image: url(../../images/patt.png);
-  background-position: center center;
   overflow: hidden;
   -webkit-box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
           box-shadow: 7px 5px 30px 0 rgba(72, 73, 121, 0.15);
@@ -3855,7 +3832,6 @@ How App Works CSS
 .how-app-work {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -4558,10 +4534,6 @@ App Download CSS
 /*================================================
 Platform Connect CSS
 =================================================*/
-.platform-connect {
-  background: #ffffff url("../../images/bg-point.png") no-repeat fixed left -600px center/auto;
-}
-
 .platform-connect h2 {
   text-align: center;
   max-width: 520px;
@@ -6554,7 +6526,6 @@ Coming Soon CSS
 .coming-soon {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/book-banner.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -7138,7 +7109,6 @@ Footer CSS
 }
 
 .footer-area.bg-image {
-  background-image: url(../../images/footer-shape.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -1,9 +1,6 @@
 const express = require("express");
 const next = require("next");
 const path = require("path");
-const bodyParser = require("body-parser");
-const keys = require("./server/config/keys");
-const stripe = require("stripe")(keys.stripeSecretKey);
 const routes = require("./routes");
 
 const dev = process.env.NODE_ENV !== "production";
@@ -26,16 +23,6 @@ app.prepare().then(() => {
 
 	server.get("*", (req, res) => {
 		return handle(req, res);
-	});
-
-	server.post("/api/stripe/checkout", async (req, res) => {
-		await stripe.charges.create({
-			amount: req.body.amount,
-			currency: "usd",
-			description: "Tembo AI",
-			source: req.body.token.id
-		});
-		res.send({});
 	});
 
 	const PORT = process.env.PORT || 3000;
