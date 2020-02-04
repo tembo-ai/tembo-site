@@ -54,7 +54,7 @@
 /*================================================
 Default CSS
 =================================================*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 body {
   font-family: "Montserrat", serif;
@@ -68,11 +68,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 a {
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   color: #000000;
   text-decoration: none;
   -webkit-transition: 0.4s;
@@ -135,7 +135,7 @@ p:last-child {
 }
 
 .office h3 {
-  font-family: "Nunito", sans-serif !important;
+  font-family: "Comfortaa", sans-serif !important;
   position: relative;
   margin: 20px 0 15px;
   z-index: 1;
@@ -199,7 +199,7 @@ button {
 }
 
 .btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-size: 15px;
   border: none;
@@ -1151,7 +1151,7 @@ Main Banner CSS
 
 .main-banner .hero-content h1 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
 }
@@ -7014,7 +7014,7 @@ Contact Us CSS
 }
 
 .contact-info-box h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 23px;
   font-weight: 700;
   margin: 25px 0 15px;

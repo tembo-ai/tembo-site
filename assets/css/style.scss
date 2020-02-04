@@ -55,7 +55,7 @@
 /*================================================
 Default CSS
 =================================================*/
-$font_family: "Nunito", sans-serif;
+$font_family: "Comfortaa", sans-serif;
 $font_family2: "Montserrat", serif;
 $template_color: #3e0f5e;
 $template_color2: #f98711;
@@ -63,7 +63,7 @@ $white_color: #ffffff;
 $black_color: #000000;
 $paragraph_color: #818992;
 $transition: 0.5s;
-@import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 
 body {
@@ -1098,7 +1098,7 @@ Main Banner CSS
 		h1 {
 			color: $white_color;
 			font: {
-				size: 60px;
+				size: 50px;
 				weight: 700;
 			}
 			margin: 0;
