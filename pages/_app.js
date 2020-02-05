@@ -6,7 +6,6 @@ import "../assets/css/animate.css";
 
 import App, { Container } from "next/app";
 import { DefaultSeo } from "next-seo";
-import GoTop from "../components/Contents/GoTop";
 
 export default class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {
@@ -33,7 +32,6 @@ export default class MyApp extends App {
 					}}
 				/>
 				<Component {...pageProps} />
-				<GoTop scrollStepInPx="50" />
 			</Container>
 		);
 	}

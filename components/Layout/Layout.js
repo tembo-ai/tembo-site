@@ -1,4 +1,5 @@
 import { initGA, logPageView } from "../../utils/Analytics";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 class Layout extends React.Component {
 	componentDidMount() {
@@ -9,7 +10,12 @@ class Layout extends React.Component {
 		logPageView();
 	}
 	render() {
-		return <div>{this.props.children}</div>;
+		return (
+			<div>
+				{this.props.children}
+				<ScrollUpButton ContainerClassName="back-to-top rounded text-center" />
+			</div>
+		);
 	}
 }
 

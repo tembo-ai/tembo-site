@@ -5392,58 +5392,39 @@ Footer CSS
 /*================================================
 Back To Top CSS
 =================================================*/
-.back-to-top {
-	position: fixed;
-	right: 1.5%;
-	bottom: -7.5%;
-	height: 15px;
-	cursor: pointer;
-	width: 40px;
-	padding: 3px 5px;
-	font: {
-		size: 10px;
-		weight: bold;
-	}
-	color: transparent;
-	text-align: center;
-	z-index: 3;
-	visibility: hidden;
-	outline: 0 !important;
-	transition: all 0.25s ease-in-out;
-	background-color: $paragraph_color;
+.rounded {
+    border-radius: 0.25rem !important;
+}
 
-	&::before,
-	&::after {
-		content: "";
-		position: absolute;
-		left: 0;
-		width: 0;
-		height: 0;
-		border: 20px solid transparent;
-		border-top: 0;
-	}
-	&::before {
-		top: -20px;
-		z-index: 4;
-		border-bottom: 20px solid $paragraph_color;
-	}
-	&::after {
-		bottom: 0;
-		z-index: 5;
-		border-bottom: 20px solid $template_color;
-	}
-	&:hover,
-	&:focus {
-		opacity: 1;
-		text-decoration: none;
-		height: 25px;
-		color: $white_color;
-	}
-	&.show-back-to-top {
-		display: block;
-		bottom: 1.25%;
-		visibility: visible;
-	}
+.back-to-top {
+	width: 33px !important;
+	height: 33px !important;
+	line-height: 33px !important;
+	color: $template_color2 !important;
+	background-color: $paragraph_color !important;
+	-webkit-transition: all 0.5s ease !important;
+	transition: all 0.5s ease !important;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+.back-to-top svg {
+	width: 10px !important;
+	-webkit-transition: all 0.5s ease !important;
+	transition: all 0.5s ease !important;
+}
+
+.back-to-top:hover {
+	background-color: $template_color2 !important;
+	color: $white_color !important;
+	-webkit-transform: rotate(45deg) !important;
+	transform: rotate(45deg) !important;
+}
+
+.back-to-top:hover svg {
+	-webkit-transform: rotate(-45deg) !important;
+	transform: rotate(-45deg) !important;
+	fill: $white_color !important;
 }
 .modal-video {
 	position: absolute !important;
