@@ -329,7 +329,7 @@ Preloader CSS
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: linear-gradient(45deg, $white, $white);
+	background-image: linear-gradient(45deg, $white_color, $white_color);
 	z-index: 9999999;
 	#status {
 		position: absolute;
@@ -347,7 +347,7 @@ Preloader CSS
 				width: 100%;
 				height: 100%;
 				border-radius: 50%;
-				background-color: $primary;
+				background-color: $template_color;
 				opacity: 0.6;
 				position: absolute;
 				top: 0;
@@ -369,6 +369,7 @@ Preloader CSS
 	50% {
 		transform: scale(1);
 	}
+}
 
 /*================================================
 Navbar CSS
@@ -5391,7 +5392,7 @@ Footer CSS
 Back To Top CSS
 =================================================*/
 .rounded {
-    border-radius: 0.25rem !important;
+	border-radius: 0.25rem !important;
 }
 
 .back-to-top {

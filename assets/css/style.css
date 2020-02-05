@@ -341,78 +341,72 @@ button {
 /*================================================
 Preloader CSS
 =================================================*/
-.preloader-area {
+#preloader {
   position: fixed;
-  left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999999;
-  background: #ffffff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, #ffffff, #ffffff);
+  z-index: 9999999;
 }
 
-.preloader-area .lds-hourglass {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
+#preloader #status {
   position: absolute;
   left: 0;
   right: 0;
-  margin: 0 auto;
   top: 50%;
-  margin-top: -95px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
-.preloader-area .lds-hourglass::after {
-  content: " ";
-  display: block;
+#preloader #status .spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+
+#preloader #status .spinner .double-bounce1,
+#preloader #status .spinner .double-bounce2 {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  width: 0;
-  height: 0;
-  margin: 6px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 36px solid #3e0f5e;
-  border-color: #3e0f5e transparent #f98711 transparent;
-  -webkit-animation: lds-hourglass 2.9s infinite;
-          animation: lds-hourglass 2.9s infinite;
+  background-color: #3e0f5e;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+          animation: sk-bounce 2s infinite ease-in-out;
 }
 
-@-webkit-keyframes lds-hourglass {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+#preloader #status .spinner .double-bounce2 {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   50% {
-    -webkit-transform: rotate(900deg);
-            transform: rotate(900deg);
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  100% {
-    -webkit-transform: rotate(1800deg);
-            transform: rotate(1800deg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
-@keyframes lds-hourglass {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+@keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   50% {
-    -webkit-transform: rotate(900deg);
-            transform: rotate(900deg);
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  100% {
-    -webkit-transform: rotate(1800deg);
-            transform: rotate(1800deg);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
