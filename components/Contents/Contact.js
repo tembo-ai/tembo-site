@@ -19,7 +19,9 @@ class Contact extends Component {
 							<p>1400 E Angela Boulevard</p>
 							<p>South Bend, IN 46617</p>
 							<p>United States</p>
-							<Map />
+							<div className="col-lg-11 col-md-12">
+								<Map />
+							</div>
 						</div>
 
 						<div className="col-lg-6 col-md-12">
