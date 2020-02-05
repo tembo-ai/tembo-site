@@ -17,7 +17,7 @@ class GoTop extends React.Component {
 				this.setState({ thePosition: false });
 			}
 		});
-		window.scrollTo(0, 0);
+		window.scrollTo(0, 10);
 	}
 
 	onScrollStep = () => {
