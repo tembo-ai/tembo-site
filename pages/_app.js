@@ -6,6 +6,8 @@ import "../assets/css/animate.css";
 
 import App, { Container } from "next/app";
 import { DefaultSeo } from "next-seo";
+import { Preloader, Placeholder } from "react-preloading-screen";
+import Loader from "../components/Layout/Loader";
 
 export default class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {
@@ -31,17 +33,12 @@ export default class MyApp extends App {
 						site_name: "Tembo AI"
 					}}
 				/>
-				<div id="pageLoader">
-					<div id="preloader">
-						<div id="status">
-							<div className="spinner">
-								<div className="double-bounce1"></div>
-								<div className="double-bounce2"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<Component {...pageProps} />
+				<Preloader>
+					<Component {...pageProps} />
+					<Placeholder>
+						<Loader />
+					</Placeholder>
+				</Preloader>
 			</Container>
 		);
 	}
