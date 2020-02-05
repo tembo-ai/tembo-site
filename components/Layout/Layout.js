@@ -12,16 +12,6 @@ class Layout extends React.Component {
 	render() {
 		return (
 			<div>
-				<div id="pageLoader">
-					<div id="preloader">
-						<div id="status">
-							<div className="spinner">
-								<div className="double-bounce1"></div>
-								<div className="double-bounce2"></div>
-							</div>
-						</div>
-					</div>
-				</div>
 				{this.props.children}
 				<ScrollUpButton ContainerClassName="back-to-top rounded text-center" />
 			</div>
