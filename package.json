@@ -39,6 +39,7 @@
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"react-ga": "^2.7.0",
+		"react-mailchimp-subscribe": "^2.1.0",
 		"react-map-gl": "^5.2.1",
 		"react-modal-video": "^1.2.2",
 		"react-owl-carousel3": "^2.2.5",

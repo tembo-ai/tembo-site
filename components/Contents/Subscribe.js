@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SubscribeForm from "./SubscribeForm";
 
 class Subscribe extends Component {
 	render() {
@@ -14,23 +15,7 @@ class Subscribe extends Component {
 						</p>
 					</div>
 
-					<form className="newsletter-form" data-toggle="validator">
-						<input
-							type="email"
-							className="form-control"
-							placeholder="Your Email Address"
-							name="EMAIL"
-							required={true}
-							autoComplete="off"
-						/>
-						<button className="btn btn-primary" type="submit">
-							Subscribe
-						</button>
-						<div
-							id="validator-newsletter"
-							className="form-result"
-						></div>
-					</form>
+					<SubscribeForm />
 				</div>
 			</section>
 		);
