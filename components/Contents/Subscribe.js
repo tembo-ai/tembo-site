@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import SubscribeForm from "./SubscribeForm";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+const url =
+	"https://tech.us19.list-manage.com/subscribe/post?u=812ef3b47813f00a5f8d355f3&amp;id=d0310ab371";
 
 class Subscribe extends Component {
 	render() {
@@ -14,9 +18,18 @@ class Subscribe extends Component {
 							value your privacy.
 						</p>
 					</div>
-
-					<SubscribeForm />
 				</div>
+
+				<MailchimpSubscribe
+					url={url}
+					render={({ subscribe, status, message }) => (
+						<SubscribeForm
+							status={status}
+							message={message}
+							onValidated={formData => subscribe(formData)}
+						/>
+					)}
+				/>
 			</section>
 		);
 	}
