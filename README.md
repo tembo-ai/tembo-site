@@ -9,16 +9,17 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 ## Active TODOs
 
 - [x] Update 404 error page
-- [x] Speed up GoTop
-- [x] Delete unused dependencies (depcheck/npm-check-unused)
+- [x] Fix scroll-to-top functionality
+- [x] Add preloader functionality
 - [x] Fix navigation within page
 - [x] Integrate Google Analytics API
+- [x] Integrate Mailchimp API
+- [x] Integrate Mapbox (OpenStreetMap) API
+- [x] Fix contact form (use axios and integrate Formspree API)
 - [x] Fix site metadata
 - [x] Optimize SEO (use next-seo)
-- [x] Fix contact form (use axios and integrate Formspree API)
-- [x] Integrate Mapbox (OpenStreetMap) API
+- [x] Delete unused dependencies (depcheck/npm-check-unused)
 - [x] Delete unused assets (images, CSS)
-- [x] Fix Mailchimp API Integration
 - [ ] Connect to Contentful API for more client control
 - [ ] Optimize to be PWA
 - [ ] Optimize images
