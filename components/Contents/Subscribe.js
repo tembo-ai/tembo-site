@@ -20,16 +20,18 @@ class Subscribe extends Component {
 					</div>
 				</div>
 
-				<MailchimpSubscribe
-					url={url}
-					render={({ subscribe, status, message }) => (
-						<SubscribeForm
-							status={status}
-							message={message}
-							onValidated={formData => subscribe(formData)}
-						/>
-					)}
-				/>
+				<div className="container">
+					<MailchimpSubscribe
+						url={url}
+						render={({ subscribe, status, message }) => (
+							<SubscribeForm
+								status={status}
+								message={message}
+								onValidated={formData => subscribe(formData)}
+							/>
+						)}
+					/>
+				</div>
 			</section>
 		);
 	}
