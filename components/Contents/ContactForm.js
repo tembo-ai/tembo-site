@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Link from "next/link";
 
-export default () => {
+const ContactForm = () => {
 	const [status, setStatus] = useState({
 		submitted: false,
 		submitting: false,
 		info: { error: false, msg: null }
 	});
+
 	const [inputs, setInputs] = useState({
 		firstName: "",
 		lastName: "",
@@ -15,6 +15,7 @@ export default () => {
 		subject: "",
 		message: ""
 	});
+
 	const handleServerResponse = (ok, msg) => {
 		if (ok) {
 			setStatus({
@@ -35,6 +36,7 @@ export default () => {
 			});
 		}
 	};
+
 	const handleOnChange = e => {
 		e.persist();
 		setInputs(prev => ({
@@ -47,6 +49,7 @@ export default () => {
 			info: { error: false, msg: null }
 		});
 	};
+
 	const handleOnSubmit = e => {
 		e.preventDefault();
 		setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
@@ -71,6 +74,7 @@ export default () => {
 				handleServerResponse(false, error.response.data.error);
 			});
 	};
+
 	return (
 		<main>
 			<form id="contactForm" onSubmit={handleOnSubmit}>
@@ -218,3 +222,5 @@ export default () => {
 		</main>
 	);
 };
+
+export default ContactForm;
