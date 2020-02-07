@@ -76,11 +76,7 @@ class Navbar extends Component {
 									<ul className="navbar-nav nav ml-auto">
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#home"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#home"
 											>
 												<a className="nav-link">Home</a>
@@ -88,12 +84,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash ==
-													"#intention"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#intention"
 											>
 												<a className="nav-link">
@@ -103,11 +94,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#solution"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#solution"
 											>
 												<a className="nav-link">
@@ -117,11 +104,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#mission"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#mission"
 											>
 												<a className="nav-link">
@@ -131,11 +114,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#team"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#team"
 											>
 												<a className="nav-link">
@@ -145,11 +124,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#news"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#news"
 											>
 												<a className="nav-link">
@@ -159,11 +134,7 @@ class Navbar extends Component {
 										</li>
 										<li className="nav-item">
 											<Link
-												className={
-													location.hash == "#contact"
-														? "active"
-														: ""
-												}
+												activeClassName="active"
 												href="#contact"
 											>
 												<a className="nav-link">
