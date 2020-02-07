@@ -20,7 +20,7 @@ class Contents extends React.Component {
 			<React.Fragment>
 				<Layout>
 					<Navbar />
-					<section name="banner">
+					<section name="home">
 						<Banner />
 					</section>
 					<section name="intention">
