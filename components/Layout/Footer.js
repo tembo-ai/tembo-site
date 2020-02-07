@@ -43,8 +43,8 @@ class Footer extends React.Component {
 
 							<div className="col-lg-6 col-md-6 text-lg-right">
 								<p>
-									© {new Date().getFullYear()} Tembo AI, LLC.
-									All rights reserved.
+									&copy; {new Date().getFullYear()} Tembo AI,
+									LLC. All rights reserved.
 								</p>
 							</div>
 						</div>
