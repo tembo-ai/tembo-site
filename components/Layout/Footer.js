@@ -41,9 +41,10 @@ class Footer extends React.Component {
 								</ul>
 							</div>
 
-							<div className="col-lg-6 col-md-6">
+							<div className="col-lg-6 col-md-6 text-lg-right">
 								<p>
-									© 2020 Tembo AI, LLC. All rights reserved.
+									© {new Date().getFullYear()} Tembo AI, LLC.
+									All rights reserved.
 								</p>
 							</div>
 						</div>
