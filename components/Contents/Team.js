@@ -114,19 +114,33 @@ class Team extends Component {
 								<div className="team-content">
 									<h3>Jio Buenviaje</h3>
 									<div>
-										<span>Software Engineer</span>
+										<span>Technical Advisor</span>
 									</div>
 									<p>
 										BS in Computer Science (Notre Dame ‘22),
 										CBS Software Engineer Intern, previously
-										employed as frontend+mobile software
-										engineer.
+										employed as fullstack web & mobile
+										developer.
 									</p>
 									<ul>
+										<li>
+											<Link href="https://jbuenviaje.com/">
+												<a>
+													<i className="icofont-web"></i>
+												</a>
+											</Link>
+										</li>
 										<li>
 											<Link href="https://www.linkedin.com/in/lockjio/">
 												<a>
 													<i className="icofont-linkedin"></i>
+												</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="https://github.com/lockjio">
+												<a>
+													<i className="icofont-github"></i>
 												</a>
 											</Link>
 										</li>
