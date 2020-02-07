@@ -21,7 +21,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Delete unused dependencies (depcheck/npm-check-unused)
 - [x] Delete unused assets (images, CSS)
 - [ ] Connect to Contentful API for more client control
-- [ ] Optimize to be PWA
+- [ ] Optimize to be PWA (metadata image)
 - [ ] Optimize images
 
 ---
