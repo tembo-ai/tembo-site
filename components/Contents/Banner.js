@@ -52,7 +52,10 @@ class Banner extends Component {
 							params={{
 								particles: {
 									number: {
-										value: 25
+										value: 50,
+										density: {
+											enable: true
+										}
 									},
 									size: {
 										value: 3
@@ -62,7 +65,7 @@ class Banner extends Component {
 									events: {
 										onhover: {
 											enable: true,
-											mode: "repulse"
+											mode: "grab"
 										},
 										onclick: {
 											enable: true,
