@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SubscribeForm from "./SubscribeForm";
+import SubscribeForm from "../Forms/SubscribeForm";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const url =

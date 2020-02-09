@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Form from "./ContactForm";
+import Form from "../Forms/ContactForm";
 import Map from "../Map/Map";
 
 class Contact extends Component {
