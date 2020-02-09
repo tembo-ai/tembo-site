@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-const isServer = typeof window === "undefined";
-const WOW = !isServer ? require("wowjs") : null;
+
 import Link from "next/link";
 import Particles from "react-particles-js";
 import VisibilitySensor from "react-visibility-sensor";
 import ModalVideo from "react-modal-video";
 import "../../node_modules/react-modal-video/scss/modal-video.scss";
+
+const isServer = typeof window === "undefined";
+const WOW = !isServer ? require("wowjs") : null;
 
 const options = {
 	items: 1,

@@ -7,9 +7,10 @@ import "../assets/css/animate.css";
 import App, { Container } from "next/app";
 import { DefaultSeo } from "next-seo";
 import { Preloader, Placeholder } from "react-preloading-screen";
+
 import Loader from "../components/Layout/Loader";
 
-export default class MyApp extends App {
+class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {
 		return {
 			pageProps: Component.getInitialProps
@@ -43,3 +44,5 @@ export default class MyApp extends App {
 		);
 	}
 }
+
+export default MyApp;

@@ -23,18 +23,15 @@ class MyDocument extends Document {
 					></link>
 					<meta name="author" content="Jio Buenviaje" />
 
-					{/* Set the page title */}
 					<meta property="og:title" content="Tembo AI" />
 					<meta property="twitter:title" content="Tembo AI" />
 
-					{/* Open graph tags and twitter tags */}
 					<meta property="og:type" content="website" />
 					<meta property="og:site_name" content="Tembo AI" />
 					<meta property="og:url" content="tembo.ai" />
 					<meta property="twitter:url" content="tembo.ai" />
 					<meta name="theme-color" content="#3e0f5e" />
 
-					{/* Set the page description */}
 					<meta
 						name="description"
 						content="Tembo AI - Empowering individuals to protect their communities."
@@ -48,13 +45,11 @@ class MyDocument extends Document {
 						content="Tembo AI - Empowering individuals to protect their communities."
 					/>
 
-					{/* Set the page keywords */}
 					<meta
 						name="keywords"
 						content="tembo,ai,temboai,anand,shah,anandshah,anandkiranshah,dan,kervick,dankervick,notredame,nd,techentrepreneurship,tech,entrepreneurship,esteem,msesteem,ideacenter,idea,center,ndideacenter,mccloskey,mccloskeywinner,mccloskeynewventure,mccloskeyventure,mccloskeyventurecompetition,mcclockeynewventurecompetition,farshore,farshorepartner,harborlink,harborlinknetwork,harborlinkpartner,northwestern,chicago,illinois,garage,thegarage,ml,machinelearning,machine,learning,artificialintelligence,artificial,intelligence,stoneman,stonemandouglas,stonemandouglashighschool,london,londonbridge,londonterror,londonterrorattacks,website,southbend,indiana,university,react,javascript,node,flutter,dart,raspberrypi,rpi,raspi,jointheherd,theherd,herd,joinherd,contact"
 					/>
 
-					{/* Set the page image if there is one */}
 					<meta property="og:image" content="../images/bg2.png" />
 					<meta
 						property="twitter:image"

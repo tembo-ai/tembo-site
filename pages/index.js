@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import Layout from "../components/Layout/Layout";
 import Navbar from "../components/Layout/Navbar";
@@ -14,7 +14,7 @@ import News from "../components/Contents/News";
 import Contact from "../components/Contents/Contact";
 import Subscribe from "../components/Contents/Subscribe";
 
-class Contents extends React.Component {
+class Contents extends Component {
 	render() {
 		return (
 			<React.Fragment>

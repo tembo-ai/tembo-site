@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "next/router";
+
 import Link from "../../utils/ActiveLink";
 
 class Navbar extends Component {

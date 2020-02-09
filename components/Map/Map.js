@@ -36,7 +36,7 @@ const scaleControlStyle = {
 	padding: "10px"
 };
 
-export default class App extends Component {
+class Map extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -109,6 +109,8 @@ export default class App extends Component {
 	}
 }
 
+export default Map;
+
 export function renderToDom(container) {
-	render(<App />, container);
+	render(<Map />, container);
 }

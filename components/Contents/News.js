@@ -7,6 +7,7 @@ class News extends React.Component {
 	componentDidMount() {
 		this.setState({ display: true });
 	}
+
 	render() {
 		return (
 			<section className="blog-area ptb-100">

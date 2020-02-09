@@ -1,4 +1,6 @@
-class GoTop extends React.Component {
+import React, { Component } from "react";
+
+class GoTop extends Component {
 	_isMounted = false;
 	constructor(props) {
 		super(props);

@@ -1,7 +1,9 @@
+import React, { Component } from "react";
+
 import { initGA, logPageView } from "../../utils/Analytics";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
-class Layout extends React.Component {
+class Layout extends Component {
 	componentDidMount() {
 		if (!window.GA_INITIALIZED) {
 			initGA();

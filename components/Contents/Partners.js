@@ -7,6 +7,7 @@ class Partners extends React.Component {
 	componentDidMount() {
 		this.setState({ display: true });
 	}
+
 	render() {
 		return (
 			<div className="partner-area startup-partner">
