@@ -118,7 +118,7 @@ class Team extends Component {
 									</div>
 									<p>
 										BS in Computer Science (Notre Dame ‘22),
-										CBS Software Engineer Intern, previously
+										CTO of DeLive Drones, previously
 										employed as fullstack web & mobile
 										developer.
 									</p>
