@@ -1297,22 +1297,24 @@ Footer CSS
 Back To Top CSS
 =================================================*/
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 0.625rem !important;
+  text-align: center !important;
 }
 
 .back-to-top {
   width: 33px !important;
   height: 33px !important;
   line-height: 33px !important;
-  color: #f98711 !important;
+  color: #3e0f5e !important;
   background-color: #818992 !important;
   -webkit-transition: all 0.5s ease !important;
   transition: all 0.5s ease !important;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
 }
 
 .back-to-top svg {
+  margin-bottom: 4px;
   width: 10px !important;
   -webkit-transition: all 0.5s ease !important;
   transition: all 0.5s ease !important;
@@ -1322,12 +1324,12 @@ Back To Top CSS
   background-color: #f98711 !important;
   color: #ffffff !important;
   -webkit-transform: rotate(45deg) !important;
-  transform: rotate(45deg) !important;
+          transform: rotate(45deg) !important;
 }
 
 .back-to-top:hover svg {
   -webkit-transform: rotate(-45deg) !important;
-  transform: rotate(-45deg) !important;
+          transform: rotate(-45deg) !important;
   fill: #ffffff !important;
 }
 

@@ -1202,35 +1202,34 @@ Footer CSS
 Back To Top CSS
 =================================================*/
 .rounded {
-	border-radius: 0.25rem !important;
+	border-radius: 0.625rem !important;
+	text-align: center !important;
 }
+
 .back-to-top {
 	width: 33px !important;
 	height: 33px !important;
 	line-height: 33px !important;
-	color: $template_color2 !important;
+	color: $template_color !important;
 	background-color: $paragraph_color !important;
-	-webkit-transition: all 0.5s ease !important;
 	transition: all 0.5s ease !important;
-	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
+	svg {
+		margin-bottom: 4px;
+		width: 10px !important;
+		transition: all 0.5s ease !important;
+	}
+	&:hover {
+		background-color: $template_color2 !important;
+		color: $white_color !important;
+		transform: rotate(45deg) !important;
+		svg {
+			transform: rotate(-45deg) !important;
+			fill: $white_color !important;
+		}
+	}
 }
-.back-to-top svg {
-	width: 10px !important;
-	-webkit-transition: all 0.5s ease !important;
-	transition: all 0.5s ease !important;
-}
-.back-to-top:hover {
-	background-color: $template_color2 !important;
-	color: $white_color !important;
-	-webkit-transform: rotate(45deg) !important;
-	transform: rotate(45deg) !important;
-}
-.back-to-top:hover svg {
-	-webkit-transform: rotate(-45deg) !important;
-	transform: rotate(-45deg) !important;
-	fill: $white_color !important;
-}
+
 .modal-video {
 	position: absolute !important;
 }
