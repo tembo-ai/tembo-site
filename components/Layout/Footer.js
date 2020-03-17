@@ -44,8 +44,8 @@ class Footer extends Component {
 
 							<div className="col-lg-6 col-md-6 text-lg-right">
 								<p>
-									&copy; {new Date().getFullYear()} Tembo AI,
-									LLC. All rights reserved.
+									Copyright &copy; {new Date().getFullYear()}{" "}
+									Tembo AI, LLC. All rights reserved.
 								</p>
 							</div>
 						</div>
