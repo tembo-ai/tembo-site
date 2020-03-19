@@ -50,7 +50,7 @@ class Navbar extends Component {
 				<header id="header">
 					<div id="navbar" className={`crake-nav ${layOutCls}`}>
 						<div className="container">
-							<nav className="navbar navbar-expand-md navbar-light">
+							<nav className="navbar navbar-expand-lg navbar-light">
 								<Link href="/">
 									<a className="navbar-brand">
 										<img src={logo} alt="logo" />
