@@ -10,14 +10,16 @@ class Footer extends Component {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-6 col-md-6">
 								<ul>
-									<Link href="/">
-										<a className="logo">
-											<img
-												src={require("../../images/logo2.png")}
-												alt="logo2"
-											/>
-										</a>
-									</Link>
+									<li>
+										<Link href="/">
+											<a className="logo">
+												<img
+													src={require("../../images/logo2.png")}
+													alt="logo2"
+												/>
+											</a>
+										</Link>
+									</li>
 									<li>
 										<Link href="https://twitter.com/TemboAi">
 											<a>
