@@ -32,7 +32,10 @@ class Team extends Component {
 									</p>
 									<ul>
 										<li>
-											<Link href="https://www.linkedin.com/in/anandkiranshah/">
+											<Link
+												href="https://www.linkedin.com/in/anandkiranshah/"
+												aria-label="Anand linkedin"
+											>
 												<a>
 													<i className="icofont-linkedin"></i>
 												</a>
@@ -63,7 +66,10 @@ class Team extends Component {
 									</p>
 									<ul>
 										<li>
-											<Link href="https://www.linkedin.com/in/dkervick/">
+											<Link
+												href="https://www.linkedin.com/in/dkervick/"
+												aria-label="Dan linkedin"
+											>
 												<a>
 													<i className="icofont-linkedin"></i>
 												</a>
@@ -124,21 +130,30 @@ class Team extends Component {
 									</p>
 									<ul>
 										<li>
-											<Link href="https://jbuenviaje.com/">
+											<Link
+												href="https://jbuenviaje.com/"
+												aria-label="Jio website"
+											>
 												<a>
 													<i className="icofont-web"></i>
 												</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="https://www.linkedin.com/in/lockjio/">
+											<Link
+												href="https://www.linkedin.com/in/lockjio/"
+												aria-label="Jio linkedin"
+											>
 												<a>
 													<i className="icofont-linkedin"></i>
 												</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="https://github.com/lockjio">
+											<Link
+												href="https://github.com/lockjio"
+												aria-label="Jio github"
+											>
 												<a>
 													<i className="icofont-github"></i>
 												</a>

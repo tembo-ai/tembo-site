@@ -11,7 +11,7 @@ class Footer extends Component {
 							<div className="col-lg-6 col-md-6">
 								<ul>
 									<li>
-										<Link href="/">
+										<Link href="/" aria-label="Home">
 											<a className="logo">
 												<img
 													src={require("../../images/logo2.png")}
@@ -21,21 +21,30 @@ class Footer extends Component {
 										</Link>
 									</li>
 									<li>
-										<Link href="https://twitter.com/TemboAi">
+										<Link
+											href="https://twitter.com/TemboAi"
+											aria-label="Tembo twitter"
+										>
 											<a>
 												<i className="icofont-twitter"></i>
 											</a>
 										</Link>
 									</li>
 									<li>
-										<Link href="https://www.instagram.com/temboai/">
+										<Link
+											href="https://www.instagram.com/temboai/"
+											aria-label="Tembo instagram"
+										>
 											<a>
 												<i className="icofont-instagram"></i>
 											</a>
 										</Link>
 									</li>
 									<li>
-										<Link href="https://www.linkedin.com/company/tembo-ai/">
+										<Link
+											href="https://www.linkedin.com/company/tembo-ai/"
+											aria-label="Tembo linkedin"
+										>
 											<a>
 												<i className="icofont-linkedin"></i>
 											</a>
