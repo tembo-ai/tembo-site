@@ -12,7 +12,10 @@ class Footer extends Component {
 								<ul>
 									<li>
 										<Link href="/" aria-label="Home">
-											<a className="logo">
+											<a
+												className="logo"
+												aria-label="Home"
+											>
 												<img
 													src={require("../../images/logo2.png")}
 													alt="logo2"
@@ -25,7 +28,7 @@ class Footer extends Component {
 											href="https://twitter.com/TemboAi"
 											aria-label="Tembo twitter"
 										>
-											<a>
+											<a aria-label="Tembo twitter">
 												<i className="icofont-twitter"></i>
 											</a>
 										</Link>
@@ -35,7 +38,7 @@ class Footer extends Component {
 											href="https://www.instagram.com/temboai/"
 											aria-label="Tembo instagram"
 										>
-											<a>
+											<a aria-label="Tembo instagram">
 												<i className="icofont-instagram"></i>
 											</a>
 										</Link>
@@ -45,7 +48,7 @@ class Footer extends Component {
 											href="https://www.linkedin.com/company/tembo-ai/"
 											aria-label="Tembo linkedin"
 										>
-											<a>
+											<a aria-label="Tembo linkedin">
 												<i className="icofont-linkedin"></i>
 											</a>
 										</Link>
