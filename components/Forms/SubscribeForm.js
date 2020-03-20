@@ -11,6 +11,9 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 
 	return (
 		<form className="newsletter-form" data-toggle="validator">
+			<label htmlFor="subscribe" for="subscribe">
+				Subscribe
+			</label>
 			<input
 				ref={node => (email = node)}
 				id="subscribe"
@@ -21,9 +24,6 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 				required={true}
 				autoComplete="off"
 			/>
-			<label htmlFor="subscribe" for="subscribe">
-				Subscribe
-			</label>
 			<button className="btn btn-primary" type="submit" onClick={submit}>
 				Subscribe
 			</button>
