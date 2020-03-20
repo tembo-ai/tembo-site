@@ -8,12 +8,20 @@ class CityInfo extends PureComponent {
 		return (
 			<div>
 				<div>
-					<a target="_new" href={`https://ideacenter.nd.edu/`}>
+					<a
+						target="_new"
+						rel="noopener noreferrer"
+						href={`https://ideacenter.nd.edu/`}
+					>
 						IDEA Center
 					</a>
 					, {displayName}
 				</div>
-				<a target="_new" href={`https://goo.gl/maps/FDXqmxQgBicH3zZ66`}>
+				<a
+					target="_new"
+					rel="noopener noreferrer"
+					href={`https://goo.gl/maps/FDXqmxQgBicH3zZ66`}
+				>
 					<img width={240} src={info.image} />
 				</a>
 			</div>
