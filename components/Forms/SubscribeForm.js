@@ -13,6 +13,7 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 		<form className="newsletter-form" data-toggle="validator">
 			<input
 				ref={node => (email = node)}
+				id="subscribe"
 				type="email"
 				className="form-control"
 				placeholder="Your Email Address"
@@ -20,6 +21,7 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 				required={true}
 				autoComplete="off"
 			/>
+			<label htmlFor="subscribe"></label>
 			<button className="btn btn-primary" type="submit" onClick={submit}>
 				Subscribe
 			</button>

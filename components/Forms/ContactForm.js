@@ -98,6 +98,7 @@ const ContactForm = () => {
 								data-error="Please enter your name"
 								placeholder="First Name"
 							/>
+							<label htmlFor="firstName"></label>
 							<div className="help-block with-errors"></div>
 						</div>
 					</div>
@@ -114,6 +115,7 @@ const ContactForm = () => {
 								data-error="Please enter your name"
 								placeholder="Last Name"
 							/>
+							<label htmlFor="lastName"></label>
 							<div className="help-block with-errors"></div>
 						</div>
 					</div>
@@ -131,6 +133,7 @@ const ContactForm = () => {
 								data-error="Please enter your email"
 								placeholder="Email"
 							/>
+							<label htmlFor="email"></label>
 							<div className="help-block with-errors"></div>
 						</div>
 					</div>
@@ -148,6 +151,7 @@ const ContactForm = () => {
 								data-error="Please enter a subject"
 								placeholder="Subject"
 							/>
+							<label htmlFor="subject"></label>
 						</div>
 					</div>
 
@@ -166,6 +170,7 @@ const ContactForm = () => {
 								data-error="Please write your message"
 								placeholder="Message"
 							/>
+							<label htmlFor="message"></label>
 							<div className="help-block with-errors"></div>
 						</div>
 					</div>
