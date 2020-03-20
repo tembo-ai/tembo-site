@@ -21,7 +21,7 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 				required={true}
 				autoComplete="off"
 			/>
-			<label htmlFor="subscribe"></label>
+			<label htmlFor="subscribe" for="subscribe"></label>
 			<button className="btn btn-primary" type="submit" onClick={submit}>
 				Subscribe
 			</button>
