@@ -11,7 +11,6 @@ const SubscribeForm = ({ status, message, onValidated }) => {
 
 	return (
 		<form className="newsletter-form" data-toggle="validator">
-			<label htmlFor="subscribe">Subscribe</label>
 			<input
 				ref={node => (email = node)}
 				id="subscribe"
