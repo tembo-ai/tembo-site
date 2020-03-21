@@ -19,6 +19,7 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Fix site metadata
 - [x] Optimize SEO (next-seo)
 - [x] Delete unused assets (images, CSS)
+- [x] Optimize site performance through PWA lighthouse audit
 - [ ] Optimize to be PWA (add service worker and manifest)
 - [ ] Optimize images (resize)
 - [ ] Fix 404 error page
