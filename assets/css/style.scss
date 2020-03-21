@@ -1,15 +1,15 @@
 /*================================================
 Base CSS
 =================================================*/
-$font_family: "Comfortaa", sans-serif;
-$font_family2: "Montserrat", serif;
+$font_family: "Proza Libre", serif;
+$font_family2: "Montserrat", sans-serif;
 $template_color: #3e0f5e;
 $template_color2: #f98711;
 $white_color: #ffffff;
 $black_color: #000000;
 $paragraph_color: #818992;
 $transition: 0.5s;
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 
 body {
@@ -99,7 +99,7 @@ p {
 		z-index: 1;
 		font: {
 			size: 21px;
-			weight: 700;
+			weight: 600;
 		}
 	}
 	p {
@@ -157,7 +157,7 @@ button {
 .btn {
 	font-family: $font_family;
 	font: {
-		weight: 700;
+		weight: 600;
 		size: 15px;
 	}
 	border: none;
@@ -209,7 +209,7 @@ button {
 	h2 {
 		font: {
 			size: 28px;
-			weight: 700;
+			weight: 600;
 		}
 		margin-bottom: 0;
 	}
@@ -364,8 +364,8 @@ Navbar CSS
 
 				a {
 					font: {
-						weight: 600;
-						size: 15px;
+						weight: 800;
+						size: 17px;
 					}
 					color: $white_color !important;
 					padding: 0 0 !important;
@@ -447,7 +447,7 @@ Main Banner CSS
 			color: $white_color;
 			font: {
 				size: 50px;
-				weight: 700;
+				weight: 600;
 			}
 			margin: 0;
 		}
@@ -487,7 +487,7 @@ Main Banner CSS
 			text-transform: uppercase;
 			font: {
 				size: 15px;
-				weight: 700;
+				weight: 600;
 			}
 			i {
 				font-size: 30px;
@@ -588,7 +588,7 @@ Features CSS
 	h3 {
 		font: {
 			size: 21px;
-			weight: 700;
+			weight: 600;
 		}
 		margin: 25px 0 15px;
 	}
@@ -637,7 +637,7 @@ Features CSS
 			h3 {
 				font: {
 					size: 21px;
-					weight: 700;
+					weight: 600;
 				}
 				margin: 0 0 15px;
 			}
@@ -689,7 +689,7 @@ Overview CSS
 			z-index: 1;
 			font: {
 				size: 21px;
-				weight: 700;
+				weight: 600;
 			}
 		}
 		p {
@@ -750,7 +750,7 @@ Team CSS
 		h3 {
 			font: {
 				size: 20px;
-				weight: 700;
+				weight: 600;
 			}
 			margin-bottom: 4px;
 		}
@@ -854,7 +854,7 @@ Feedback CSS
 		h3 {
 			font: {
 				size: 21px;
-				weight: 700;
+				weight: 600;
 			}
 			margin: {
 				bottom: 5px;
@@ -918,7 +918,7 @@ Blog CSS
 			}
 			font: {
 				size: 20px;
-				weight: 700;
+				weight: 600;
 			}
 			line-height: 30px;
 		}
@@ -929,7 +929,7 @@ Blog CSS
 			}
 		}
 		.read-more-btn {
-			font-weight: 700;
+			font-weight: 600;
 		}
 	}
 }
@@ -950,7 +950,7 @@ Join CSS
 	h3 {
 		font: {
 			size: 21px;
-			weight: 700;
+			weight: 600;
 		}
 		margin-bottom: 15px;
 	}
@@ -1111,7 +1111,7 @@ Error 404 CSS
 	h2 {
 		font: {
 			size: 60px;
-			weight: 700;
+			weight: 600;
 		}
 		margin-bottom: 10px;
 	}

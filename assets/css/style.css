@@ -1,10 +1,10 @@
 /*================================================
 Base CSS
 =================================================*/
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Proza+Libre:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
 body {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -15,11 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Proza Libre", serif;
 }
 
 a {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Proza Libre", serif;
   color: #000000;
   text-decoration: none;
   -webkit-transition: 0.4s;
@@ -86,12 +86,12 @@ p:last-child {
 }
 
 .office h3 {
-  font-family: "Comfortaa", sans-serif !important;
+  font-family: "Proza Libre", serif !important;
   position: relative;
   margin: 20px 0 15px;
   z-index: 1;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .office p {
@@ -150,8 +150,8 @@ button {
 }
 
 .btn {
-  font-family: "Comfortaa", sans-serif;
-  font-weight: 700;
+  font-family: "Proza Libre", serif;
+  font-weight: 600;
   font-size: 15px;
   border: none;
   padding: 13px 31px;
@@ -202,7 +202,7 @@ button {
 
 .section-title h2 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
@@ -402,8 +402,8 @@ Navbar CSS
 }
 
 .crake-nav nav .navbar-nav li a {
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 17px;
   color: #ffffff !important;
   padding: 0 0 !important;
   margin: 0 17px;
@@ -479,7 +479,7 @@ Main Banner CSS
 .main-banner .hero-content h1 {
   color: #ffffff;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -515,7 +515,7 @@ Main Banner CSS
   color: #ffffff;
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main-banner .hero-content .video-btn i {
@@ -658,7 +658,7 @@ Features CSS
 
 .single-features-box h3 {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 25px 0 15px;
 }
 
@@ -716,7 +716,7 @@ Features CSS
 
 .features-inner-area .features-inner-content .features-item h3 {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 0 15px;
 }
 
@@ -769,7 +769,7 @@ Overview CSS
   margin: 20px 0 15px;
   z-index: 1;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .overview-box .overview-content p {
@@ -835,7 +835,7 @@ Team CSS
 
 .single-team-member .team-content h3 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 4px;
 }
 
@@ -942,7 +942,7 @@ Feedback CSS
 
 .single-feedback-box .client-info h3 {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
@@ -1007,7 +1007,7 @@ Blog CSS
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 30px;
 }
 
@@ -1017,7 +1017,7 @@ Blog CSS
 }
 
 .single-blog-post .blog-post-content .read-more-btn {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /*================================================
@@ -1033,7 +1033,7 @@ Join CSS
 
 .join-content h3 {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -1210,7 +1210,7 @@ Error 404 CSS
 
 .notfound h2 {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 
