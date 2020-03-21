@@ -18,10 +18,10 @@ Progressive Web Application (PWA) developed in React through Next for frontend a
 - [x] Fix contact form (axios and Formspree API)
 - [x] Fix site metadata
 - [x] Optimize SEO (next-seo)
-- [x] Delete unused dependencies (depcheck/npm-check-unused)
 - [x] Delete unused assets (images, CSS)
+- [ ] Fix 404 error page
 - [ ] Connect to Contentful API for more client control
-- [ ] Optimize to be PWA (metadata image)
-- [ ] Optimize images
+- [ ] Optimize images (resize)
+- [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
