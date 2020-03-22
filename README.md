@@ -1,6 +1,6 @@
 # Tembo AI Company Website :desktop_computer:
 
-Progressive Web Application (PWA) developed in React through Next for frontend and Node (Express) for backend. PWA uses Sass/SCSS and Bootstrap (General Style), Mapbox (Map Location), Mailchimp (Subscription), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on ZEIT Now.
+Progressive Web Application (PWA) developed in React through Next and Node (Express). PWA uses Sass/SCSS and Bootstrap (General Style), Mapbox (Map Location), Mailchimp (Subscription), Formspree (Contact Form), and Google Analytics (Analytics). PWA is hosted on ZEIT Now.
 
 ![web-screenshot](https://user-images.githubusercontent.com/50670255/77236103-9f951900-6b91-11ea-99b0-ca78041f0049.png)
 
