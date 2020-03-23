@@ -576,8 +576,8 @@ Main Banner CSS
 }
 
 .main-banner .product-image img {
-  -webkit-animation: movebounce 5s linear infinite;
-          animation: movebounce 5s linear infinite;
+  -webkit-animation: movebounce 4s linear infinite;
+          animation: movebounce 4s linear infinite;
   width: 500px;
 }
 
