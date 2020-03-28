@@ -55,10 +55,9 @@ class MyDocument extends Document {
 						name="keywords"
 						content="tembo,ai,temboai,anand,shah,anandshah,anandkiranshah,dan,kervick,dankervick,notredame,nd,techentrepreneurship,tech,entrepreneurship,esteem,msesteem,ideacenter,idea,center,ndideacenter,mccloskey,mccloskeywinner,mccloskeynewventure,mccloskeyventure,mccloskeyventurecompetition,mcclockeynewventurecompetition,farshore,farshorepartner,harborlink,harborlinknetwork,harborlinkpartner,northwestern,chicago,illinois,garage,thegarage,ml,machinelearning,machine,learning,artificialintelligence,artificial,intelligence,stoneman,stonemandouglas,stonemandouglashighschool,london,londonbridge,londonterror,londonterrorattacks,website,southbend,indiana,university,react,javascript,node,flutter,dart,raspberrypi,rpi,raspi,jointheherd,theherd,herd,joinherd,contact"
 					/>
-
 					<meta
 						property="twitter:image"
-						content="../images/bg2.png"
+						content="https://user-images.githubusercontent.com/50670255/77236103-9f951900-6b91-11ea-99b0-ca78041f0049.png"
 					/>
 					<meta name="twitter:card" content="summary_large_image" />
 					<link
