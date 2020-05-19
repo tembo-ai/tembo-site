@@ -126,7 +126,7 @@ class Team extends Component {
 										BS in Computer Science (Notre Dame ‘22),
 										CTO of DeLive Drones, previously
 										employed as fullstack web & mobile
-										developer.
+										engineer.
 									</p>
 									<ul>
 										<li>
