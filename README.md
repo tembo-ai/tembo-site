@@ -24,7 +24,6 @@ Progressive Web Application (PWA) developed in React through Next and Node (Expr
 - [ ] Optimize to be PWA (add service worker and manifest)
 - [ ] Optimize images (resize)
 - [ ] Fix 404 error page
-- [ ] Convert JavaScript to TypeScript
 - [ ] Connect to Contentful API for more client control
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
