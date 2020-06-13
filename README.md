@@ -20,10 +20,10 @@ Progressive Web Application (PWA) developed in React through Next and Node (Expr
 - [x] Optimize SEO (next-seo)
 - [x] Optimize site performance through PWA lighthouse audit
 - [x] Fix metadata image
+- [ ] Fix 404 error page
 - [ ] Fix favicon sizes
 - [ ] Optimize to be PWA (add service worker and manifest)
 - [ ] Optimize images (resize)
-- [ ] Fix 404 error page
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
