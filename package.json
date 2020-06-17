@@ -1,7 +1,7 @@
 {
-	"name": "Tembo",
+	"name": "tembo-site",
+	"description": "Tembo AI - Empowering individuals to protect their communities.",
 	"version": "1.0.0",
-	"description": "Tembo AI",
 	"main": "index.js",
 	"scripts": {
 		"dev": "next",
