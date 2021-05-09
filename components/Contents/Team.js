@@ -141,7 +141,7 @@ class Team extends Component {
 										</li>
 										<li>
 											<Link
-												href="https://www.linkedin.com/in/lockjio/"
+												href="https://www.linkedin.com/in/saejhi/"
 												aria-label="Jio linkedin"
 											>
 												<a aria-label="Jio linkedin">
@@ -151,7 +151,7 @@ class Team extends Component {
 										</li>
 										<li>
 											<Link
-												href="https://github.com/lockjio"
+												href="https://github.com/saejhi"
 												aria-label="Jio github"
 											>
 												<a aria-label="Jio github">
